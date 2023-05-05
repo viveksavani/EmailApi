@@ -16,7 +16,7 @@ public class EmailService {
 
         boolean f = false;
 
-        String from ="shankar.gadhvi3@gmail.com";
+        String from ="";
 
         String host = "smtp.gmail.com";
 
@@ -36,7 +36,7 @@ public class EmailService {
             @Override
             protected PasswordAuthentication getPasswordAuthentication() {
 
-                return new PasswordAuthentication("shankar.gadhvi3@gmail.com", "vivek777");
+                return new PasswordAuthentication("", "");
             }
 
         });
